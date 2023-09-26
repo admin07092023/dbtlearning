@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: customer_model
+    columns:
+      - name: c_custkey
+        tests:
+          - unique
+          - not_null
+              
+              
+
+
