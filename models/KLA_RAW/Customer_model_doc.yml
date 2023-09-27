@@ -6,3 +6,5 @@ models:
     columns:
       - name: c_custkey
         description: This is the primary key of this customer model table 
+      - name: c_name
+        description: '{{doc("c_name")}}'
