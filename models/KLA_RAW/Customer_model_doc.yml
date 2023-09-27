@@ -1,10 +1,9 @@
 version: 2
 
 models:
-  - name: customer_model
+  - name: orders_model
     description: This is customer model for storing customer information . one row for each customer id 
     columns:
-      - name: c_custkey
-        description: This is the primary key of this customer model table 
-      - name: c_name
-        description: '{{doc("c_name")}}'
+      - name: o_orderpriority
+        description: '{{doc("o_orderpriority")}}'
+    
