@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: REGION_MODEL
+  - name: regions
     columns:
     - name: R_REGIONKEY
       tests: 
