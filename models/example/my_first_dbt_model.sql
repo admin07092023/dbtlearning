@@ -6,6 +6,7 @@
 
     Try changing "table" to "view" below
 */
+/* comment added here - Azhar
 
 {{ config(materialized='table') }}
 
