@@ -1,9 +1,0 @@
-version: 2
-
-models:
-  - name: orders_model
-    description: This is customer model for storing customer information . one row for each customer id 
-    columns:
-      - name: o_orderpriority
-        description: '{{doc("o_orderpriority")}}'
-    
