@@ -1,0 +1,13 @@
+/* 
+Below example is to demonstrate how to create a  view  in DBT 
+ */
+{{
+    config(
+        materialized='view'
+    )
+}}
+select * 
+from analytics.dbt_demo_devschema.supplier_model
+
+
+
