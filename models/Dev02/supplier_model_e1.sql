@@ -6,6 +6,7 @@ Below example is to demonstrate how to create a ephemeral  in DBT
         materialized='ephemeral'
     )
 }}
+
 select * 
 from analytics.dbt_demo_devschema.supplier_model
 
